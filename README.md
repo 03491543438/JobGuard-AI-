@@ -1,18 +1,20 @@
-# JobGuard-AI-
-JobGuard AI is an AI-powered job verification and application assistance system designed to help job seekers identify potentially suspicious job postings and prepare better job applications.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-The system analyzes information such as the job title, company name, location, salary, job description, source platform, and URL. It then generates a verification report containing a 0–100 verification score, verification status, official company domain, salary benchmark, ghost-job risk, recruiter signals, red flags, verification highlights, required skills, and an actionable recommendation.
+# Run and deploy your AI Studio app
 
-Main Features
-Job Verification Score (0–100)
-Job Legitimacy Classification
-Official Company Domain Detection
-Salary Benchmark Analysis
-Ghost Job Risk Detection
-Recruiter & Hiring Signals
-Red Flag Detection
-Required Skills Identification
-Application Recommendation
-AI-Generated Application Answers
-Short Answers for Character-Limited Fields
-Interview Talking Points
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/cc8b5957-51d4-4350-bc97-c9342984b8be
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

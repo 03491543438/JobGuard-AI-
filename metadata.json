@@ -1,0 +1,6 @@
+{
+  "name": "Job Verifier & AI Application Copilot Chrome Extension",
+  "description": "Chrome Extension and web app for verifying job listings on LinkedIn, Indeed, Glassdoor, and any site, with AI-powered instant answers for job applications.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
